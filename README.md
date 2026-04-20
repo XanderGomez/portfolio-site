@@ -3,9 +3,9 @@
 Personal portfolio built with React to showcase personal projects, skills, and experience.
 
 ## Tech Stack
- -React
- -Vite
- -TypeScript
+ - React
+ - Vite
+ - TypeScript
 
 ## Features (Planned)
  - Personal Project Showcases
