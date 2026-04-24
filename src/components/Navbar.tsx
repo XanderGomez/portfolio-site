@@ -9,6 +9,7 @@ function Navbar() {
             <div className="flex-container">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
             </div>
         </nav>
     );
