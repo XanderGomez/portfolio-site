@@ -12,3 +12,16 @@
     border-radius: 8px;
     text-align: left;
 }
+
+.project-card h2 {
+    margin-bottom: 8px;
+}
+
+.project-card p {
+    margin-bottom: 6px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 8px;
+}

@@ -2,8 +2,8 @@ import "../styles/Projects.css"
 
 function Projects() {
     return (
-        <main>
-            <section>
+        <main className="page">
+            <section className="section">
                 <h1>Personal Projects</h1>
 
                 <div className="projects-container">
