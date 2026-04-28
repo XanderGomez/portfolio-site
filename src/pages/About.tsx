@@ -2,8 +2,8 @@
 
 function About() {
     return (
-        <main>
-            <section>
+        <main className="page">
+            <section className="section">
                 <h1>About Me</h1>
 
                 <p>

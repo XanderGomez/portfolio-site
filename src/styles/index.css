@@ -24,7 +24,8 @@ h1, h2 {
 }
 
 p {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  line-height: 1.6;
   color: var(--subtext);
 }
 
@@ -35,4 +36,14 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.section {
+  margin-top: 60px;
 }
