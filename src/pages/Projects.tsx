@@ -10,11 +10,19 @@ function Projects() {
                     <div className="project-card">
                         <h2>Statistics Calculator</h2>
 
-                        <p><strong>About:</strong> A statistics calculator that processes datasets and returns key metrics such as mean, median, and standard deviation.</p>
-                        <p><strong>Tech:</strong> Python</p>
-                        <p><strong>Purpose:</strong> Support for statistics coursework</p>
-                        <p><strong>Status:</strong> Work in Progress</p>
-                        <p><strong>Learning Experience:</strong> Improved ability to structure code into single-purpose functions and modular logic.</p>
+                        <p className="project-about">
+                            A statistics calculator that processes datasets and returns key metrics such as mean, median, and standard deviation.
+                        </p>
+                        
+                        <div className="project-meta">
+                            <p><strong>Tech:</strong> Python</p>
+                            <p><strong>Purpose:</strong> Support for statistics coursework</p>
+                            <p ><strong>Status:</strong> Work in Progress</p>
+                        </div>
+
+                        <p className="project-learn">
+                            Improved ability to structure code into single-purpose functions and modular logic.
+                        </p>
 
                         <a href="https://github.com/XanderGomez/Statistics-Calculator" target="_blank">View Repository</a>
                     </div>

@@ -8,9 +8,14 @@
 .project-card {
     background-color: var(--card-bg);
     border: 1px solid var(--border);
-    padding: 16px;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 10px;
     text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
     transition: tranform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -20,7 +25,8 @@
 }
 
 .project-card h2 {
-    margin-bottom: 8px;
+    font-size: 20px;
+    margin-bottom: 4px;
 }
 
 .project-card p {
@@ -28,15 +34,38 @@
 }
 
 .project-card a {
+    align-self: flex-start;
+
     display: inline-block;
     margin-top: 8px;
     padding: 6px 12px;
     border: 1px solid var(--accent);
     border-radius: 6px;
+
     transition: background 0.2s ease;
 }
 
 .project-card a:hover {
     background-color: var(--accent);
     color: black;
+}
+
+.project-about {
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.project-meta {
+    display: flex;
+    gap: 16px;
+
+    font-size: 14px;
+    color: var(--subtext);
+}
+
+.project-learn {
+    font-size: 14px;
+    color: var(--subtext);
+    font-style: italic;
 }
