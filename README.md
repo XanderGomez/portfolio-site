@@ -9,11 +9,11 @@ Personal portfolio built with React to showcase personal projects, skills, and e
 
 ## Features (Implemented)
  - NavBar
- - Home Page (skeleton)
- - About Page (skeleton)
+ - Home Page
+ - About Page
+ - Personal Projects Page
 
 ## Features (Planned)
- - Personal Project Showcases
  - Personal Information
  - Skills and Experience
  - Contact Form
