@@ -14,9 +14,12 @@ Personal portfolio built with React to showcase personal projects, skills, and e
  - Personal Projects Page
 
 ## Features (Planned)
- - Personal Information
- - Skills and Experience
- - Contact Form
+ - Add More Personal Information
+ - Include Skills and Experience
+ - Create Reusable Components
+ - Create Contact Form
+ - Improve Visual Style
+ - Deploy Portfolio Publicly
 
 ## Status
  - In Progress
